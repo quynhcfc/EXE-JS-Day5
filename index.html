@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Javscript exe day 5</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>JavaScript EXE Day 5</h1>
+    <div class="container exe">
+      <div class="description">
+        <h2>EXE 1:</h2>
+        <div>
+          <div class="title">Input:</div>
+          <p class="paragraph">Điều kiện: 1 + 2 +...+ n >10000</p>
+          <div class="title">Output:</div>
+          <p class="paragraph">Xuất số n nhỏ nhất.</p>
+        </div>
+      </div>
+      <div class="exe1">
+        <div class="form-group">
+          <button class="btn btn-success" id="exe1-btn-tinh">Tìm nào</button>
+          <input
+            type="text"
+            name=""
+            id="ketQua1"
+            class="form-control text-center"
+            placeholder="kết quả"
+            aria-describedby="helpId"
+            readonly
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End EXE 1 -->
+
+    <!-- Start EXE 2 -->
+    <div class="container exe">
+      <div class="description">
+        <h2>EXE 2:</h2>
+        <div>
+          <div class="title">Input:</div>
+          <p class="paragraph">Nhập 2 số x và n.</p>
+          <div class="title">Output:</div>
+          <p class="paragraph">Xuất tổng S = x + x^2 + x^3 +...+ x^n.</p>
+        </div>
+      </div>
+      <div class="exe2">
+        <div class="form-group">
+          <label for="soX">Số x: </label>
+          <input
+            type="text"
+            name=""
+            id="soX"
+            class="form-control text-center"
+            placeholder="nhập x"
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="soN">Số n: </label>
+          <input
+            type="text"
+            name=""
+            id="soN"
+            class="form-control text-center"
+            placeholder="nhập n"
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <button class="btn btn-success" id="exe2-btn-tinh">Tính</button>
+          <input
+            type="text"
+            name=""
+            id="ketQua2"
+            class="form-control text-center"
+            placeholder="kết quả"
+            aria-describedby="helpId"
+            readonly
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End EXE 2 -->
+
+    <!-- Start EXE 3 -->
+    <div class="container exe">
+      <div class="description">
+        <h2>EXE 3:</h2>
+        <div>
+          <div class="title">Input:</div>
+          <p class="paragraph">Nhập n.</p>
+          <div class="title">Output:</div>
+          <p class="paragraph">Xuất giai thừa của số n.</p>
+        </div>
+      </div>
+      <div class="exe3">
+        <div class="form-group">
+          <label for="exe3-txt-number">Số n:</label>
+          <input
+            type="text"
+            name=""
+            id="exe3-txt-number"
+            class="form-control text-center"
+            placeholder="nhập n"
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <button class="btn btn-success" id="exe3-btn-tinh">Tính</button>
+          <input
+            type="text"
+            name=""
+            id="ketQua3"
+            class="form-control text-center"
+            placeholder="kết quả"
+            aria-describedby="helpId"
+            readonly
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End EXE 3 -->
+
+    <!-- Start EXE 4 -->
+    <div class="container exe">
+      <div class="description">
+        <h2>EXE 4:</h2>
+        <div>
+          <div class="title">Input:</div>
+          <p class="paragraph">Nhập n thẻ div cần in.</p>
+          <div class="title">Output:</div>
+          <p class="paragraph">
+            In ra n thẻ div; <br />
+            div vị trí chẵn background đỏ, <br />
+            div vị trí lẻ background xanh.
+          </p>
+        </div>
+      </div>
+      <div class="exe4">
+        <div class="form-group">
+          <label for="">Số thẻ div:</label>
+          <input
+            type="text"
+            name=""
+            id="exe4-txt-number"
+            class="form-control text-center"
+            placeholder="nhập n"
+            aria-describedby="helpId"
+          />
+        </div>
+        <button class="btn btn-success" id="exe4-inDiv">In nào</button>
+        <div id="ketQua4"></div>
+      </div>
+    </div>
+    <!-- End EXE 4 -->
+
+    <!-- Start EXE 5 -->
+    <div class="container exe">
+      <div class="description">
+        <h2>EXE 5:</h2>
+        <div>
+          <div class="title">Input:</div>
+          <p class="paragraph">Nhập số n.</p>
+          <div class="title">Output:</div>
+          <p class="paragraph">Xuất tất cả số nguyên tố từ 1 đến n.</p>
+        </div>
+      </div>
+      <div class="exe5">
+        <div class="form-group">
+          <label for="exe5-txt-number">Số n:</label>
+          <input
+            type="text"
+            name=""
+            id="exe5-txt-number"
+            class="form-control text-center"
+            placeholder="số n"
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <button class="btn btn-success" id="exe5-inSo">In số</button>
+          <div id="ketQua5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/baitap1.js"></script>
+    <script src="./js/baiTap2.js"></script>
+    <script src="./js/baiTap3.js"></script>
+    <script src="./js/baiTap4.js"></script>
+    <script src="./js/baiTap5.js"></script>
+  </body>
+</html>
